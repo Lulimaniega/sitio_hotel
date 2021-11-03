@@ -1,0 +1,161 @@
+/*
+font-family: 'Merriweather', serif;
+*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(186, 240, 142);
+    padding: 1em 0;
+}
+header h1{
+    color: rgb(170, 80, 88);
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    
+}
+main{ background-color: rgb(227, 240, 154);
+    font-size: 20px;
+    text-align: justify;
+
+}
+nav{
+    background-color: rgb(226, 132, 144);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 25, 20);
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: rgb(238, 182, 108);
+ }
+footer{
+    background-color: rgb(202, 136, 136);
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+nav ul li a.activo{
+    background-color: rgb(236, 238, 141);
+  
+}
+
+.holder{
+   max-width: 960px;
+   margin: 0 auto;
+}
+.homeimg{
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.Bienvenidos{
+width: 75%;
+padding-right: 2em;
+}
+.Testimonio{
+    width: 25%;
+    background-color: rgb(228, 149, 149);
+    text-align: center;
+    
+}
+.Bienvenidos, .Testimonios{
+    box-sizing: border-box;
+}
+h2{
+    color: cadetblue;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+ .homeimg{
+     margin-bottom: 1.5em;
+ }
+ .columnas{
+     overflow: hidden;
+ }
+ .Bienvenidos{
+     width: 75%;
+     padding-right: 2em;
+ }
+ .Testimonios{
+     width: 25%;
+ }
+ .testimonio .cita{
+     font-weight: bold;
+     font-style: italic;
+     font-size: 1.4em;
+
+     display: block;
+ }
+ .testimonio .autor{
+     font-size: 0.7em;
+     text-align: center;
+     margin: 1em 0;
+     display: block;
+    
+    }
+.historia p{
+    font-size: 0.8 em;
+}
+.personas{
+    overflow: hidden;
+}
+.persona{
+     text-align: center;
+}
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0 0 0 0.5);
+    margin: 0.8em;
+    max-width: 70%;
+}
+.persona h5,
+.persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: crimson;
+    margin: 0;
+}
+.persona h5{
+    font-size: 0.9em;
+}
+.persona h6{
+    font-size: 0.8em;
+    font-size: italic;
+}
+.persona p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+.persona: :first-child{
+    margin-left: 0;
+}
